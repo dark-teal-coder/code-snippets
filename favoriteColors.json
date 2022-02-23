@@ -1,0 +1,130 @@
+{"favorite-colors": {
+	"crimson": {
+		"hex":"#DC143C", 
+		"dec":[220,20,60]
+	}, 
+	"dark-green": {
+		"hex":"#006400", 
+		"dec":[0,100,0]
+	}, 
+	"medium-spring-green": {
+		"hex":"#00FA9A", 
+		"dec":[0,250,154]
+	}, 
+	"medium-aqua-marine": {
+		"hex":"#66CDAA", 
+		"dec":[102,205,170]
+	}, 
+	"light-sea-green": {
+		"hex":"#20B2AA", 
+		"dec":[32,178,170]
+	}, 
+	"teal": {
+		"hex":"#008080", 
+		"dec":[0,128,128]
+	}, 
+	"dark-cyan": {
+		"hex":"#008B8B", 
+		"dec":[0,139,139]
+	}, 
+	"cyan": {
+		"hex":"#00FFFF", 
+		"dec":[0,255,255]
+	}, 
+	"dark-turquoise": {
+		"hex":"#00CED1", 
+		"dec":[0,206,209]
+	}, 
+	"turquoise": {
+		"hex":"#40E0D0", 
+		"dec":[64,224,208]
+	}, 
+	"medium-turquoise": {
+		"hex":"#48D1CC", 
+		"dec":[72,209,204]
+	}, 
+	"aqua-marine": {
+		"hex":"#7FFFD4", 
+		"dec":[127,255,212]
+	}, 
+	"corn-flower-blue": {
+		"hex":"#6495ED", 
+		"dec":[100,149,237]
+	}, 
+	"dodger-blue": {
+		"hex":"#1E90FF", 
+		"dec":[30,144,255]
+	}, 
+	"royal-blue": {
+		"hex":"#4169E1", 
+		"dec":[65,105,225]
+	}, 
+	"blue-violet": {
+		"hex":"#8A2BE2", 
+		"dec":[138,43,226]
+	}, 
+	"slate-blue": {
+		"hex":"#6A5ACD", 
+		"dec":[106,90,205]
+	}, 
+	"medium-slate blue": {
+		"hex":"#7B68EE", 
+		"dec":[123,104,238]
+	}, 
+	"medium-purple": {
+		"hex":"#9370DB", 
+		"dec":[147,112,219]
+	}, 
+	"dark-orchid": {
+		"hex":"#9932CC", 
+		"dec":[153,50,204]
+	}, 
+	"violet": {
+		"hex":"#EE82EE", 
+		"dec":[238,130,238]
+	}, 
+	"medium-violet-red": {
+		"hex":"#C71585", 
+		"dec":[199,21,133]
+	}, 
+	"deep-pink": {
+		"hex":"#FF1493", 
+		"dec":[255,20,147]
+	}, 
+	"hot-pink": {
+		"hex":"#FF69B4", 
+		"dec":[255,105,180]
+	}, 
+	"lemon-chiffon": {
+		"hex":"#FFFACD", 
+		"dec":[255,250,205]
+	}, 
+	"misty-rose": {
+		"hex":"#FFE4E1", 
+		"dec":[255,228,225]
+	}, 
+	"lavender-blush": {
+		"hex":"#FFF0F5", 
+		"dec":[255,240,245]
+	}, 
+	"light-slate-gray": {
+		"hex":"#778899", 
+		"dec":[119,136,153]
+	}, 
+	"light-steel-blue": {
+		"hex":"#B0C4DE", 
+		"dec":[176,196,222]
+	}, 
+	"lavender": {
+		"hex":"#E6E6FA", 
+		"dec":[230,230,250]
+	}, 
+	"ghost-white": {
+		"hex":"#F8F8FF", 
+		"dec":[248,248,255]
+	}, 
+	"dark-gray": {
+		"hex":"#A9A9A9", 
+		"dec":[169,169,169]
+	} 
+}} 
