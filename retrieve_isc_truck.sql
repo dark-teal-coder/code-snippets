@@ -1,4 +1,4 @@
--- Author: Preesa Wong
+-- Author: github.com/dark-teal-coder
 
 -- Right click on the table name and choose [Popup Describe] > [Columns] to see column names. 
 -- A table's primary key is another table's foriegn key. 
