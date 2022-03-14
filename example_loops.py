@@ -1,3 +1,6 @@
+## Use for-loops when there is a sequence of elements to interate 
+## Use while-loops when you want to repeat an action until a condition changes 
+
 def print_prime_factors(number):
 	# Start with two, which is the first prime
 	factor = 2
