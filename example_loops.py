@@ -10,7 +10,7 @@ def print_prime_factors(number):
 		number = number / factor
 	else:
 		# If it's not, increment the factor by one
-	factor += 1
-	return "Done"
+		factor += 1
+		return "Done"
 
 print_prime_factors(100)
