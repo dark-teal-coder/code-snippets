@@ -51,3 +51,13 @@ print(sum_divisors(36)) # Should sum of 1+2+3+4+6+9+12+18
 # 55
 print(sum_divisors(102)) # Should be sum of 2+3+6+17+34+51
 # 114
+
+
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
+print(factorial(4)) # should return 24
+print(factorial(5)) # should return 120
