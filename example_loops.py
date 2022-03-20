@@ -61,3 +61,11 @@ def factorial(n):
 
 print(factorial(4)) # should return 24
 print(factorial(5)) # should return 120
+
+
+
+## Domino Tiles
+for left in range(7): 
+	for right in range(left, 7): 
+		print("[" + str(left) + "|" + str(right) + "]", end=" ")
+	print()
