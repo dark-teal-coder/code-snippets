@@ -32,12 +32,12 @@ print_prime_factors(100)
 ### Power of 2 
 def is_power_of_two(num):
     '''This function checks if the number at parameter 1 can be divided by 2 without a remainder.'''
-	while num != 0 and num % 2 == 0:
-		num = num / 2
-	    ## If after dividing by 2 the number is 1, it's a power of 2
-	    if num == 1:
-		    return True
-	return False
+    while num != 0 and num % 2 == 0:
+        num = num / 2
+    ## If after dividing by 2 the number is 1, it's a power of 2
+    if num == 1:
+        return True
+    return False
 
 print(is_power_of_two(0)) # Output: False
 print(is_power_of_two(1)) # Output: True
