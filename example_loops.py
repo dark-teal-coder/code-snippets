@@ -1,9 +1,15 @@
-## Use for-loops when there is a sequence of elements to interate 
-## Use while-loops when you want to repeat an action until a condition changes 
+## Break & Continue
+### break statement: to skip the current iteration 
+### continue statement: to continue with the next one
 
 
 
 ## While Loops 
+### A while loop executes the body of the loop while the condition remains True.
+### While loops are mostly used when there is an unknown number of operations to be performed and a condition needs to be checked at each iteration.
+### Common pitfalls: 
+#### 01) Unintended infinite loops 
+#### 02) Failures to initialize all the variables used in the condition before the loop
 
 ### Prime Factors 
 def print_prime_factors(num):
@@ -25,12 +31,12 @@ print_prime_factors(100)
 
 ### Power of 2 
 def is_power_of_two(num):
-	'''This function checks if the number at parameter 1 can be divided by 2 without a remainder.'''
+    '''This function checks if the number at parameter 1 can be divided by 2 without a remainder.'''
 	while num != 0 and num % 2 == 0:
 		num = num / 2
-	## If after dividing by 2 the number is 1, it's a power of 2
-	if num == 1:
-		return True
+	    ## If after dividing by 2 the number is 1, it's a power of 2
+	    if num == 1:
+		    return True
 	return False
 
 print(is_power_of_two(0)) # Output: False
@@ -57,6 +63,11 @@ print(sum_divisors(102)) # Output: 114 (2 + 3 + 6 + 17 + 34 + 51)
 
 
 ## For Loops 
+### A for loop iterates over a sequence of elements, executing the body of the loop for each element in the sequence. 
+### For loops are mostly used when there is a pre-defined sequence or range of numbers to iterate.
+### Common pitfalls: 
+#### 01) Forgetting that the upper limit of a range() isn't included 
+#### 02) Iterating over non-iterables
 
 ### Factorial
 def get_factorial(num):
@@ -68,6 +79,12 @@ def get_factorial(num):
 
 print(get_factorial(4)) # Output: 24
 print(get_factorial(5)) # Output: 120
+
+
+
+## For-loops VS. While-loops 
+### Use for-loops when there is a sequence of elements to interate 
+### Use while-loops when you want to repeat an action until a condition changes 
 
 
 
