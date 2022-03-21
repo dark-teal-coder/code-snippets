@@ -3,7 +3,6 @@
 ### continue statement: to continue with the next one
 
 
-
 ## While Loops 
 ### A while loop executes the body of the loop while the condition remains True.
 ### While loops are mostly used when there is an unknown number of operations to be performed and a condition needs to be checked at each iteration.
