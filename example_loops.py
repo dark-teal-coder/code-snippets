@@ -72,7 +72,9 @@ print(sum_divisors(102)) # Output: 114 (2 + 3 + 6 + 17 + 34 + 51)
 ### Factorial
 def get_factorial(num):
 	'''This function returns the factorial of the number at parameter 1.'''
-	result = 1
+	if n == 0: 
+		return 1
+    result = 1
 	for i in range(1, num + 1):
 		result *= i
 	return result
