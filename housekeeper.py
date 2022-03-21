@@ -4,7 +4,7 @@ from configparser import ConfigParser, ExtendedInterpolation
 import logging
 import logging.handlers
 
-# Reference: http://www.blog.pythonlibrary.org/2013/11/14/python-101-how-to-write-a-cleanup-script/
+# Ref.: http://www.blog.pythonlibrary.org/2013/11/14/python-101-how-to-write-a-cleanup-script/
 
 def readConfig():
 	try:
@@ -32,6 +32,7 @@ def buildlog(log_filename):
 	return logger
 
 logger=buildlog(config['common']['log_path']+'/housekeep.log')
+
 
 
 def cleanup(number_of_days, path):
