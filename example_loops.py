@@ -60,6 +60,29 @@ print(sum_divisors(3)) # Output: 1
 print(sum_divisors(36)) # Output: 55 (1 + 2 + 3 + 4 + 6 + 9 + 12 + 18) 
 print(sum_divisors(102)) # Output: 114 (2 + 3 + 6 + 17 + 34 + 51) 
 
+## Counting Up or Down
+def counter(start, stop):
+	x = start
+	if start > stop:
+		return_string = "Counting down: "
+		while x >= stop:
+			return_string += str(x)
+			if x != stop:
+				return_string += ","
+			x -= 1
+	else:
+		return_string = "Counting up: "
+		while x <= stop:
+			return_string += str(x)
+			if x != stop:
+				return_string += ","
+			x += 1
+	return return_string
+
+print(counter(1, 10)) # Output: "Counting up: 1,2,3,4,5,6,7,8,9,10"
+print(counter(2, 1)) # Output: "Counting down: 2,1"
+print(counter(5, 5)) # Output: "Counting up: 5"
+
 
 
 ## For Loops 
