@@ -83,6 +83,19 @@ print(counter(1, 10)) # Output: "Counting up: 1,2,3,4,5,6,7,8,9,10"
 print(counter(2, 1)) # Output: "Counting down: 2,1"
 print(counter(5, 5)) # Output: "Counting up: 5"
 
+## Multiplication Table
+def multiplication_table(start, stop):
+	for x in range(start, stop + 1):
+		for y in range(1, stop + 1):
+			print(str(x * y), end=" ")
+		print()
+
+## This will output the following multiplication table: 
+### 1 2 3 
+### 2 4 6
+### 3 6 9
+multiplication_table(1, 3)
+
 
 
 ## For Loops 
