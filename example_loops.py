@@ -46,11 +46,11 @@ print(is_power_of_two(9)) # Output: False
 
 ### Sum of Divisors 
 def sum_divisors(num):
-	'''This function returns the sum of all divisors of the number at parameter 1, exclusive of itself.'''	
-	sum = 0
-	divisor = 1 
-	while divisor < num: 
-		if num % divisor == 0: 
+    '''This function returns the sum of all divisors of the number at parameter 1, exclusive of itself.'''	
+    sum = 0
+    divisor = 1 
+    while divisor < num: 
+        if num % divisor == 0: 
 			sum += divisor
 			divisor += 1
 	return sum
@@ -111,7 +111,7 @@ def get_factorial(num):
 	if n == 0: 
 		return 1
     result = 1
-	for i in range(1, num + 1):
+    for i in range(1, num + 1):
 		result *= i
 	return result
 
