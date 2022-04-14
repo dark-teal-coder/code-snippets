@@ -16,15 +16,15 @@ from typing import List
 
 
 def squares_loop(N: int) -> List[int]: 
-    """This function takes an integer N, and returns a list of the squares from 0 up to (N*N) using for-loop."""
-    result = []
-    for i in range(N + 1): 
-        result.append(i * i)
-    return result 
+	"""This function takes an integer N, and returns a list of the squares from 0 up to (N*N) using for-loop."""
+	result = []
+	for i in range(N + 1): 
+		result.append(i * i)
+	return result 
 
 def squares_list(N):
-    """This function takes an integer N, and returns a list of the squares from 0 up to (N*N) using list comprehension."""
-    return [i * i for i in range(N + 1)]
+	"""This function takes an integer N, and returns a list of the squares from 0 up to (N*N) using list comprehension."""
+	return [i * i for i in range(N + 1)]
 
 
 user = int(input())
