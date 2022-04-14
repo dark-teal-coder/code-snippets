@@ -172,12 +172,12 @@ Cambridge, MA 02138
 ## Most commonly used in docstrings for functions
 ## Define a function
 def my_function(value):
-    """
-    This is a docstring describing what the function does.
-    E.g. This function takes a value and prints it out on the screen.
-    """
-    print("This value will be printed:", value)
-    return
+	"""
+	This is a docstring describing what the function does.
+	E.g. This function takes a value and prints it out on the screen.
+	"""
+	print("This value will be printed:", value)
+	return
 ## Call the function
 my_function("Ree")
  
@@ -196,17 +196,17 @@ print(1 == "1")
 print("Python" == "python")
 ## if Statements
 if truth:
-    print("It's true.")
+	print("It's true.")
 else:
-    print("It's false.")
+	print("It's false.")
 ## Be 0 or more elif parts; be 0 or 1 else statement
 n = int(input("Please enter an integer: "))
 if n > 0:
-    print("It's a positive integer.")
+	print("It's a positive integer.")
 elif n < 0:
-    print("It's a negative integer.")
+	print("It's a negative integer.")
 else:
-    print("It's zero.")
+	print("It's zero.")
  
 ####################################################################################################
  
@@ -336,22 +336,22 @@ print(list(range(0, 10, 2)))
 ## https://spectrum.ieee.org/top-programming-languages/
 top_prog_lang_21 = ['Python', 'Java', 'C', 'C++', 'JavaScript', 'C#', 'R', 'Go', 'HTML', 'Swift']
 for prog_lang in top_prog_lang_21:
-    print(prog_lang)
+	print(prog_lang)
 ## Add a counter
 count = 0
 for prog_lang in top_prog_lang_21:
-    print(count, prog_lang)
-    count += 1
+	print(count, prog_lang)
+	count += 1
 ## enumerate() adds a counter to an iterable and returns it in a form of enumerating object.
 for count, prog_lang in enumerate(top_prog_lang_21):
-    print(count, prog_lang)
+	print(count, prog_lang)
 ## zip() returns an iterator of tuples where items at the same position of the iterators are paired together.
 countries = ['Australia', 'Canada', 'New Zealand', 'United State of America', 'United Kingdom']
 capitals = ['Canberra', 'Ottawa', 'Wellington', 'Washington, D.C.', 'London']
 merged_list1 = []
 for i in range(len(countries)):
-    print(countries[i], capitals[i])
-    merged_list1.append((countries[i], capitals[i]))
+	print(countries[i], capitals[i])
+	merged_list1.append((countries[i], capitals[i]))
 print(merged_list1)
 merged_list2 = zip(countries, capitals)
 print(merged_list2)
@@ -367,10 +367,10 @@ print(next(iterator))
  
 ## Functions: Input and Output
 for i in range(100):
-    print(i)
+	print(i)
 ## end()
 for i in range(100):
-    print(i, end=' ')
+	print(i, end=' ')
 print()
 ## Opening a file in "write" mode
 file = open('example.txt', 'w')
@@ -383,7 +383,7 @@ print(file.readlines())
 file.close()
 ## More sophisticated way to write this:
 with open('example.txt', 'r') as file:
-    print(file.readlines())
+	print(file.readlines())
  
 ####################################################################################################
  
@@ -399,8 +399,8 @@ print(dir(datetime.datetime))
 ## Scope
 var = "global"
 def function():
-    var = "local"
-    print(var)
+	var = "local"
+	print(var)
 print(var)
 function()
 print(var)
@@ -409,10 +409,10 @@ print(var)
 var1 = "global variable"
 var2 = "another global variable"
 def function():
-    var1 = "local"
-    print(var1)
-    print("1", vars(), globals())
-    print(var2)
+	var1 = "local"
+	print(var1)
+	print("1", vars(), globals())
+	print(var2)
 print(var1)
 print("2", vars(), globals())
 function()
