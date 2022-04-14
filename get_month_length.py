@@ -3,6 +3,8 @@
 
 ####################################################################################################
 
+# We usually need to get the date range of a particular month (and year) when we try to generate reports in Python. This code will help us get the start and end dates of a particular month and year. It is based on the official Python documentation of the "datetime" and "calendar" libraries.
+
 from datetime import date
 from datetime import timedelta
 from calendar import monthrange
