@@ -25,7 +25,7 @@ def buildlog(log_filename):
 	formatter = logging.Formatter('%(asctime)s <%(levelname)s>: %(process)d %(pathname)s/%(filename)s: %(funcName)s Line:%(lineno)d %(message)s')
 	handler = logging.handlers.RotatingFileHandler(log_filename, maxBytes=1000*1000, backupCount=2)
 	handler.setFormatter(formatter)
-    
+	
 	logger = logging.getLogger()
 	logger.setLevel(logging.ERROR)
 	logger.addHandler(handler)
@@ -40,7 +40,7 @@ def cleanup(number_of_days, path):
 	Removes files from the passed in path that are older than or equal to the number_of_days
 	"""
 	time_in_secs = time.time() - (number_of_days * 24 * 60 * 60)
-    
+	
 	for root, dirs, files in os.walk(path, topdown=False):
 		for file in files:
 			full_path = os.path.join(root, file)
