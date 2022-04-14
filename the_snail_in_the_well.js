@@ -34,20 +34,20 @@ Hint: You can use a loop to calculate the distance the snail covers each day, an
 */ 
 
 function main() {
-    var depth = parseInt(readLine(), 10);
-    let feet = 0; 
-    let day = 0; 
-    while (feet < depth) {
-        feet += 7; 
-        // After daytime has passed, if it's already reached the depth, break out before it falls back 2 feets.  
-        if (feet >= depth) {
-            // After +7 feets, it's another day.  
-            day++; 
-            break;
-        } 
-        feet -= 2; 
-        // If +7 feets isn't larger than the depth, -2 feets won't be. 
-        day++; 
-    }
-    console.log(day); 
+	var depth = parseInt(readLine(), 10);
+	let feet = 0; 
+	let day = 0; 
+	while (feet < depth) {
+		feet += 7; 
+		// After daytime has passed, if it's already reached the depth, break out before it falls back 2 feets.  
+		if (feet >= depth) {
+			// After +7 feets, it's another day.  
+			day++; 
+			break;
+		} 
+		feet -= 2; 
+		// If +7 feets isn't larger than the depth, -2 feets won't be. 
+		day++; 
+	}
+	console.log(day); 
 }
