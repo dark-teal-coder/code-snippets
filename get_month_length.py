@@ -1,13 +1,14 @@
 ## GitHub: dark-teal-coder 
 ## First Published Date: 2021-12-22
 ## Program Input(s): 
-### (1)  
+### (1) Year and month as integers
+### (2) Year and month as integers
 ## Program Process(es): 
-### (1)  
-### (2)  
+### (1) Go to the last day of the month and subtract one day
+### (2) Use pre-defined function from calendar module to get number of days in month
 ## Program Output(s): 
-### (1)  
-### (2)  
+### (1) Last data of the month
+### (2) Number of days in the month
 ## Program Description: We usually need to get the date range of a particular month (and year) when we try to generate reports in Python. This code will help us get the start and end dates of a particular month and year. It is based on the official Python documentation of the "datetime" and "calendar" libraries.
 
 ####################################################################################################
