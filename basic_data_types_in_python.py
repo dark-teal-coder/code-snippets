@@ -1,12 +1,12 @@
 ## GitHub: dark-teal-coder 
 ## First Published Date: 2021-09-26
 ## Program Input(s): 
-### (1) 
+### (1) N/A
 ## Program Process(es): 
-### (1)  
+### (1) N/A 
 ## Program Output(s): 
-### (1) 
-## Program Description: 
+### (1) N/A
+## Program Description: This program contains code from the tutorial "Basic Data Types in Python" from Real Python. It is more like a note containing different code blocks from the tutorial than a functional program. 
 
 ####################################################################################################
 
