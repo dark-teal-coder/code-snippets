@@ -1,12 +1,12 @@
 ## GitHub: dark-teal-coder 
 ## First Published Date: 2022-04-16
 ## Program Input(s): 
-### (1) 
+### (1) starting hour and minute and duration as integers
 ## Program Process(es): 
-### (1)  
+### (1) basic time calculation
 ## Program Output(s): 
-### (1) 
-## Program Description: This script contains solutions to more advanced problems in Python Essentials - Part 1 (Basics) at https://edube.org/study/pe1. 
+### (1) ending time in 24-hour format as a string
+## Program Description: This program contains solutions to more advanced problems in Python Essentials - Part 1 (Basics) at https://edube.org/study/pe1. 
 
 ####################################################################################################
 
