@@ -6,7 +6,7 @@
 ### (1) calculating the BMI of that user  
 ## Program Output(s): 
 ### (1) informing the user what his/her BMI indicates 
-## Program Description: N/A
+## Program Description: This program contains logic that calculates the BMI of a user.
 
 ####################################################################################################
 

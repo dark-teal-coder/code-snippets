@@ -6,7 +6,7 @@
 ### (1) N/A 
 ## Program Output(s): 
 ### (1) N/A
-## Program Description: This program contains code from the tutorial "Basic Data Types in Python" from Real Python. It is more like a note containing different code blocks from the tutorial than a functional program. 
+## Program Description: This is a note contains code from the tutorial "Basic Data Types in Python" from Real Python. It contains different code blocks from the tutorial. 
 
 ####################################################################################################
 
