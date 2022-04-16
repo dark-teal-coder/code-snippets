@@ -1,12 +1,12 @@
 ## GitHub: dark-teal-coder 
 ## First Published Date: 2022-03-23
 ## Program Input(s): 
-### (1) 
+### (1) N/A
 ## Program Process(es): 
-### (1)  
+### (1) N/A
 ## Program Output(s): 
-### (1) 
-## Program Description: 
+### (1) N/A
+## Program Description: This is a note containing examples of while- and for-loops. 
 
 ####################################################################################################
 
