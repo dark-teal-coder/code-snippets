@@ -1,12 +1,12 @@
 ## GitHub: dark-teal-coder 
 ## First Published Date: 2021-09-21
 ## Program Input(s): 
-### (1) 
+### (1) taking a number representing the width of the flag
 ## Program Process(es): 
-### (1)  
+### (1) setting up the screen and using the turtle module to draw the flag line by line 
 ## Program Output(s): 
-### (1) 
-## Program Description: 
+### (1) a new pop-up window with the flag of Thailand
+## Program Description: This program draws a flag of Thailand using Python built-in Turtle module. 
 
 ####################################################################################################
 
