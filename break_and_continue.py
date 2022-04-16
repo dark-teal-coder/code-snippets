@@ -1,18 +1,17 @@
 ## GitHub: dark-teal-coder 
 ## First Published Date: 2022-03-23
 ## Program Input(s): 
-### (1) 
+### (1) N/A
 ## Program Process(es): 
-### (1)  
+### (1) N/A
 ## Program Output(s): 
-### (1) 
-## Program Description: 
+### (1) N/A
+## Program Description: This is a note to show the difference between break and continue statements. 
 
 ####################################################################################################
 
 # break Statement and else Clauses on Loops
-
-# The break statement breaks out of the innermost enclosing for or while loop.
+## The break statement breaks out of the innermost enclosing for or while loop.
 
 # Loop statements may have an else clause. A loop's else runs when no break occurs.
 # It is executed:
@@ -32,8 +31,7 @@ for n in range(2, 21):
 		print(n, 'is a prime number')
 
 # continue Statement
-
-# The continue statement continues with the next iteration of the loop.
+## The continue statement continues with the next iteration of the loop.
 
 for num in range(2, 10):
 	if num % 2 == 0:
@@ -41,4 +39,7 @@ for num in range(2, 10):
 		continue
 	print("Found a number", num)
 
-# Ref.: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+####################################################################################################
+
+## REFERENCES: 
+### break and continue Statements, and else Clauses on Loops: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
