@@ -1,3 +1,17 @@
+## GitHub: dark-teal-coder 
+## First Published Date: 2022-03-23
+## Program Input(s): 
+### (1)  
+## Program Process(es): 
+### (1)  
+### (2)  
+## Program Output(s): 
+### (1)  
+### (2)  
+## Program Description: 
+
+####################################################################################################
+
 import os
 import time
 from configparser import ConfigParser, ExtendedInterpolation
