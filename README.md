@@ -27,7 +27,6 @@ Add header sections to the beginning of the following files:
 
 ## ```.ipynb``` files 
 
-Markdown Cell 01: 
 ```markdown
 <img src="https://raw.githubusercontent.com/dark-teal-coder/dark-teal-coder/main/images/coder-no-background-000-128-128.png" 
      alt="coder-black-background-000-128-128.png" width="100" height="100" align="right" style="margin:0px 5%; padding: 5px;">
@@ -38,9 +37,9 @@ Markdown Cell 01:
 	<br />
 	Last Modified Date: 2022-05-12
 </p>
-```
-Markdown Cell 02: 
-```markdown
+
+<br />
+
 ___
 ```
 
