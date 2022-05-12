@@ -2,7 +2,7 @@
 
 This repository contains stand-alone individual programs that do not belong to any project or repository. They are usually some code from tutorials, online courses and online exercises or simple scripts written as general tools.
 
-# Style 
+# Style Guide
 
 Add header sections to the beginning of the following files:
 
