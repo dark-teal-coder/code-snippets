@@ -1,12 +1,12 @@
-# Description
+## Repository Description
 
 This repository contains stand-alone individual programs that do not belong to any project or repository. They are usually some code from tutorials, online courses and online exercises or simple scripts written as general tools.
 
-# Style Guide
+## Style Guide
 
 Add header sections to the beginning of the following files:
 
-## ```.py``` files
+### ```.py``` files
 
 ```python
 ## GitHub: dark-teal-coder 
@@ -25,7 +25,7 @@ Add header sections to the beginning of the following files:
 ####################################################################################################
 ```
 
-## ```.ipynb``` files 
+### ```.ipynb``` files 
 
 ```markdown
 <img src="https://raw.githubusercontent.com/dark-teal-coder/dark-teal-coder/main/images/coder-no-background-000-128-128.png" 
@@ -43,10 +43,9 @@ Add header sections to the beginning of the following files:
 ___
 ```
 
-# References
+## References
 - [Code Blocks](https://rdmd.readme.io/docs/code-blocks)
 
 <br />
 
 *Last modified date: May 21, 2022*
-
