@@ -45,7 +45,3 @@ ___
 
 ## References
 - [Code Blocks](https://rdmd.readme.io/docs/code-blocks)
-
-<br />
-
-*Last modified date: May 21, 2022*
