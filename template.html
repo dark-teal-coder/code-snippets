@@ -49,5 +49,16 @@
 		</audio>
 		<!-- The "controls" attribute enables users to manage audio playback, including pausing or resuming playback; "loop" makes the audio replay continuously; "muted" starts the audio in a muted state; "autoplay" plays the video automatically; "poster" displays an image while the video is downloading. -->
 		<video src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" controls loop muted autoplay poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217" width="400"></video>
+		<!-- Different browsers support different video types. The browser will select the first source that it understands. -->
+		<video controls width="400" poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217">
+			<source
+		    	src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+		    	type="video/mp4"
+			/>
+		  	<source
+		    	src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.webm"
+		    	type="video/webm"
+			/>
+		</video>
 	</body>
 </html>
