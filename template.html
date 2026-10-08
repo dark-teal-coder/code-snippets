@@ -41,6 +41,12 @@
 		<p>This is a paragraph.</p>
 		<!-- The "controls" attribute enables users to manage audio playback, including pausing or resuming playback; "loop" makes the audio replay continuously; "muted" starts the audio in a muted state. -->
 		<audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3" controls loop muted></audio>
+		<!-- Different browsers support different audio types. The browser will select the first source that it understands. -->
+		<audio controls>
+			<source src="audio.ogg" type="audio/ogg" />
+			<source src="audio.wav" type="audio/wav" />
+			<source src="audio.mp3" type="audio/mpeg" />
+		</audio>
 		<!-- The "controls" attribute enables users to manage audio playback, including pausing or resuming playback; "loop" makes the audio replay continuously; "muted" starts the audio in a muted state; "autoplay" plays the video automatically. -->
 		<video src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" controls loop muted autoplay width="400"></video>
 	</body>
